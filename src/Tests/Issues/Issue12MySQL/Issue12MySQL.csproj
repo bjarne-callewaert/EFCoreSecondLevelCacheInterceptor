@@ -4,8 +4,8 @@
         <TargetFramework>net9.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\..\EFCoreSecondLevelCacheInterceptor.MemoryCache\EFCoreSecondLevelCacheInterceptor.MemoryCache.csproj"/>
-        <ProjectReference Include="..\..\..\EFCoreSecondLevelCacheInterceptor\EFCoreSecondLevelCacheInterceptor.csproj"/>
+        <ProjectReference Include="..\..\..\EFCoreSecondLevelCacheInterceptor.MemoryCache\EFCoreSecondLevelCacheInterceptor.MemoryCache.csproj" />
+        <ProjectReference Include="..\..\..\EFCoreSecondLevelCacheInterceptor\EFCoreSecondLevelCacheInterceptor.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" />
@@ -24,5 +24,6 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="System.Drawing.Common" />
     </ItemGroup>
 </Project>
