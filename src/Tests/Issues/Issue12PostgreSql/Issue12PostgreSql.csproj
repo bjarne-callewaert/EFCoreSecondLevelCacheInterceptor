@@ -30,7 +30,7 @@
         <PackageReference Include="EasyCaching.HybridCache" />
         <PackageReference Include="EasyCaching.Bus.Redis" />
         <PackageReference Include="EasyCaching.Serialization.MessagePack" />
-	    <PackageReference Include="System.Drawing.Common" />
+        <PackageReference Include="System.Drawing.Common" />
     </ItemGroup>
 
     <ItemGroup>
